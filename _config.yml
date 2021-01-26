@@ -49,7 +49,7 @@ author-about: 北海道を拠点にフリーでシステムアーキテクトを
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/yukiusa
 
-skill-description1: Java/Groovy/C#/PHP/JavaScript/Python/Golang
+skill-description1: Java/Groovy/C#/PHP/ JavaScript/Python/Golang
 skill-description2: Terraformを用いてAWSインフラ構築、Jenkins/CircleCIを用いたCI/CDのパイプライン構築
 skill-description3: ～20名程度のチームリーダの経験。オフショアとの開発経験
 skill-description4: 要件定義（機能系・非機能系）、基本設計、詳細設計、プログラム設計、試験（単体試験、結合試験）

@@ -8,10 +8,10 @@
     ・結合試験環境を新規構築(AWS/Terraform)<br>
     ・CircleCIを用いたCI/CDの仕組みの設計・実装
   tags:
-    - CICD
     - CircleCI
     - AWS
     - Terraform
+    - CICD
     - bash
     - node
     - Python
@@ -25,8 +25,7 @@
     ・提案：Autodesk製品、IFCの連携の調査<br>
     ・デモ環境構築：クラウド選定、デモ環境の設計・構築
   tags:
-    - Autodesk Forge
-    - node
+    - Autodesk
     - AWS
     - Terraform
 - name: 某タイヤメーカデータレイク構築
@@ -35,15 +34,13 @@
   end: 2020.12
   period: 3ヶ月
   summary: |
-    データレイク・データウェアハウス方式検討<br>
+    データレイク・ウェアハウス方式検討<br>
     ・データモデル検討・トランザクション制御フロー<br>
     ・ベンダーフレーム・ライブラリ選定
   tags:
-    - CICD
-    - CircleCI
-    - AWS
-    - Terraform
-    - bash
+    - C#
+    - .NET Framework
+    - 技術アドバイザ
 - name: 陳列棚解析システム リプレース案件
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   end: 2020.4

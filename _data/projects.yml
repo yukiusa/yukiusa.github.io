@@ -19,7 +19,7 @@
   image: ./assets/images/project-002.jpg
   start: 2020.8
   end: 2020.12
-  period: 4ヶ月
+  period: 2ヶ月(9月,10月稼働なし)
   summary: |
     次期BIMのシステム構築の検証・デモ環境作成<br>
     ・提案：Autodesk製品、IFCの連携の調査<br>
@@ -30,8 +30,8 @@
     - Terraform
 - name: 某タイヤメーカデータレイク構築
   image: ./assets/images/project-003.jpg
-  start: 2020.8
-  end: 2020.12
+  start: 2020.7
+  end: 2020.9
   period: 3ヶ月
   summary: |
     データレイク・ウェアハウス方式検討<br>

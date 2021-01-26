@@ -26,24 +26,35 @@ layout: compress
       item[2].classList.remove('is-active');
       item[3].classList.remove('is-active');
       item[4].classList.remove('is-active');
+      item[5].classList.remove('is-active');
     }
     if (scroll > 565 && scroll < 1230) {
       item[1].classList.remove('is-active');
       item[2].classList.add('is-active');
       item[3].classList.remove('is-active');
       item[4].classList.remove('is-active');
+      item[5].classList.remove('is-active');
     }
     if (scroll > 1230 && scroll < 2095) {
       item[1].classList.remove('is-active');
       item[2].classList.remove('is-active');
       item[3].classList.add('is-active');
       item[4].classList.remove('is-active');
+      item[5].classList.remove('is-active');
     }
-    if (scroll > 2095) {
+    if (scroll > 2095 && scroll < 2595 ) {
       item[1].classList.remove('is-active');
       item[2].classList.remove('is-active');
       item[3].classList.remove('is-active');
       item[4].classList.add('is-active');
+      item[5].classList.remove('is-active');
+    }
+    if (scroll > 2595 ) {
+      item[1].classList.remove('is-active');
+      item[2].classList.remove('is-active');
+      item[3].classList.remove('is-active');
+      item[4].classList.remove('is-active');
+      item[5].classList.add('is-active');
     }
   });
 </script>

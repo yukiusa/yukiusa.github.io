@@ -1,5 +1,5 @@
 - name: 某求人広告サイトCICD構築
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  image: ./assets/images/project-001.jpg
   start: 2020.9
   end: 2020.12
   period: 3ヶ月
@@ -16,7 +16,7 @@
     - node
     - Python
 - name: ゼネコン向けBIMシステム構築
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: ./assets/images/project-002.jpg
   start: 2020.8
   end: 2020.12
   period: 4ヶ月
@@ -29,7 +29,7 @@
     - AWS
     - Terraform
 - name: 某タイヤメーカデータレイク構築
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: ./assets/images/project-003.jpg
   start: 2020.8
   end: 2020.12
   period: 3ヶ月

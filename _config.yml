@@ -11,7 +11,7 @@ title: RabbitLab
 # Description of the Site
 description: yukiusa portfolio
 # URL of Image of the Site
-site-image: ./assets/images/meta.png
+site-image: /assets/images/meta.png
 # Keywords of the Site
 site-keywords: portfolio
 # URL for the Image of custom Favicon

@@ -1,0 +1,16 @@
+- name: "Java"
+  percent: 95
+  color: "blue"
+- name: "SQL"
+  percent: 85
+  color: "green"
+- name: "CI/CD"
+  percent: 75
+  color: "orange"
+- name: "AWS"
+  percent: 50
+  color: "blue"
+- name: "Other"
+  percent: 50
+  color: "green"
+

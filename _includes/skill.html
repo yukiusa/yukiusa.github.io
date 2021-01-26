@@ -1,0 +1,78 @@
+<section class="hero is-fullheight has-text-centered has-background-white-ter" id="skill">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-centered is-multiline is-mobile">
+                <div class="column">
+                    <h1 class="title has-text-grey-lighter">{ Skill }</h1>
+                </div>
+            </div>
+            <div class="columns is-centered is-multiline is-mobile">
+                <div class="column">
+                    <nav class="level">
+                        {% for skill in site.data.skill %}
+
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">{{ skill.name }}</p>
+                                <p class="title">
+                                <div class="c100 p{{ skill.percent }} dark {{ skill.color }}">
+                                    <span>{{ skill.percent }}%</span>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </nav>
+                </div>
+            </div>
+            <div class="columns is-centered is-multiline is-mobile">
+                <div class="column has-text-center-desktop has-text-center-tablet has-text-center-fullhd has-text-center-widescreen">
+                    <div class="title has-text-grey-light">{ Experience }</div>
+                    <span class="icon-text">
+                       <span class="icon">
+                       <i class="fas fa-code has-text-light"></i>
+                       </span>
+                       <span class="has-text-grey-light">{{ site.skill-description1 }}</span>
+                    </span>
+                    <br>
+                    <span class="icon-text">
+                       <span class="icon">
+                       <i class="fas fa-circle-notch has-text-light"></i>
+                       </span>
+                       <span class="has-text-grey-light">{{ site.skill-description2 }}</span>
+                    </span>
+                    <br>
+                    <span class="icon-text">
+                       <span class="icon">
+                       <i class="fas fa-users has-text-light"></i>
+                       </span>
+                       <span class="has-text-grey-light">{{ site.skill-description3 }}</span>
+                    </span>
+                    <br>
+                    <span class="icon-text">
+                       <span class="icon">
+                       <i class="fas fa-pencil-ruler has-text-light"></i>
+                       </span>
+                       <span class="has-text-grey-light">{{ site.skill-description4 }}</span>
+                    </span>
+                    <br>
+
+                    <br>
+                    <div class="container columns is-centered">
+                        <div>
+                            <a href="{{site.url}}{{site.baseurl}}/#contact"
+                               class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined">Contact
+                                Me</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

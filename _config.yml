@@ -7,47 +7,52 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: RabbitLab
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: yukiusa portfolio
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /WhatATheme/assets/images/meta.jp
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: portfolio
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-
+heroimage: ../images/background.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: masashi.kayahara@arc-connects.com
+facebook_username:
+twitter_username: __show_rabbit__
+instagram_username:
+linkedin_username: masakaya01
+github_username:
+youtube_channel_id:
+reddit_username:
+behance_username:
+dribbble_username:
+spotify_username:
 
 # Google Analytics
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
-
+disqus-shortname: yukiusa
 # Name of the Author
-author-name: TheDevsLot
+author-name: Masashi Kayahara(HN:yukiusagi)
+author-birthday: June 1, 1983
+author-address: Sapporo, Hokkaido
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: ./assets/images/profile.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: 北海道を拠点にフリーでシステムアーキテクトをやっております。業務・ご予算に応じたシステムの設計やソリューションのご提案。機能実現しやすいプログラミング言語・フレームワークの選定/ガイドライン作成/自動化の仕組みづくり...etcををやっております。好きなものお酒。趣味はジムで筋トレ、レッスンをうけること。
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/yukiusa
+
+skill-description1: Java/Groovy/C#/PHP/JavaScript/Python/Golang
+skill-description2: Terraformを用いてAWSインフラ構築、Jenkins/CircleCIを用いたCI/CDのパイプライン構築
+skill-description3: ～20名程度のチームリーダの経験。オフショアとの開発経験
+skill-description4: 要件定義（機能系・非機能系）、基本設計、詳細設計、プログラム設計、試験（単体試験、結合試験）
 
 # SASS
 sass:

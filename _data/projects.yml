@@ -43,15 +43,28 @@
     - 技術アドバイザ
 - name: 陳列棚解析システム リプレース案件
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  end: 2020.4
-  period: 3ヶ月
+  start: 2020.4
+  end: 2020.8
+  period: 4ヶ月
   summary: |
-    AAA<br>
-    BBB<br>
-    CCC
+    アーキテクチャ変更に伴う設計・実装<br>
+    ・バックエンド刷新(Groovy->PHP)<br>
+    ・フロントエンド刷新(AngularJS 2.x -> jQuery)
   tags:
-    - CICD
-    - CircleCI
-    - AWS
-    - Terraform
-    - bash
+    - Grovvy
+    - PHP
+    - SQL
+    - jQuery
+- name: 某カラオケ店様向けPOSシステムリプレース
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  start: 2019.11
+  end: 2020.4
+  period: 6ヶ月
+  summary: |
+    ・ハードウェア制御方式<br>
+    ・言語・F/W選定/アプリケーション基盤設計<br>
+    ・非機能系方式検討
+  tags:
+    - C#
+    - Java
+    - Guideline

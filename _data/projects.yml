@@ -8,11 +8,11 @@
     ・結合試験環境を新規構築(AWS/Terraform)<br>
     ・CircleCIを用いたCI/CDの仕組みの設計・実装
   description: |
-    求人広告サイトへのCI/CD構築と結合試験の仕組み構築<br>
-    ・結合試験環境を新規構築(AWS/Terraform)<br>
-    ・CircleCIを用いて以下をCI/CDの仕組みの設計・実装<br>
-      &ensp;&ensp; - node/pythonの単体試験の実行<br>
-      &ensp;&ensp; - ECRへの登録/ECSへのローリング・B/Gデプロイ<br>
+    求人広告サイトへのCI／CD構築と結合試験の仕組み構築<br>
+    ・結合試験環境を新規構築(AWS／Terraform)<br>
+    ・CircleCIを用いて以下をCI／CDの仕組みの設計・実装<br>
+      &ensp;&ensp; - node／pythonの単体試験の実行<br>
+      &ensp;&ensp; - ECRへの登録／ECSへのローリング・B／Gデプロイ<br>
       &ensp;&ensp; - Terraformの自動実行<br>
 
   tags:
@@ -35,7 +35,7 @@
   description: |
     次期BIMのシステム構築の検証・デモ環境作成<br>
     ・提案：Autodesk製品、IFCの連携の調査<br>
-      &ensp;&ensp; - Autodesk Forge/Autodesk Ravid<br>
+      &ensp;&ensp; - Autodesk Forge／Autodesk Ravid<br>
       &ensp;&ensp; - nestjsによるデモアプリ構築<br>
     ・AWS/Terraformによる環境構築<br>
     ・GitHub Actionによる自動デプロイ
@@ -90,15 +90,15 @@
   period: 6ヶ月
   summary: |
     ・ハードウェア制御方式<br>
-    ・言語・F/W選定/アプリケーション基盤設計<br>
+    ・言語・F／W選定／アプリケーション基盤設計<br>
     ・非機能系方式検討
   description: |
     POSシステム全体のアーキテクトチームのリーダとして従事<br>
     ・ベースフレームワークの選定<br>
       &ensp;&ensp; - POSクライアントサイド(C# .NET)<br>
-      &ensp;&ensp; - POSサーバサイド(Java(SpringBoot/SpringBatch/Thymeleaf/JS/CSS))<br>
+      &ensp;&ensp; - POSサーバサイド(Java(SpringBoot／SpringBatch／Thymeleaf)<br>
     ・ハードウェア制御(レシートプリンタ/バーコード/自動釣銭機/決済端末連携)<br>
-    ・アプリケーション基盤方式・非機能方式検討/View(UI/UX)/API/Batch 設計・実装ガイドライン検討<br>
+    ・アプリケーション基盤方式・非機能方式検討／View(UI／UX)／API／Batch 設計・実装ガイドライン検討<br>
   tags:
     - C#
     - .NET Framework
@@ -114,7 +114,7 @@
   summary: ""
   description: |
     在庫管理サービスのアーキテクトチームのリーダとして従事<br>
-    ・フレームワーク・エコシステム(Kafka)導入検討(Spring Batch/Spring-cloud)<br>
+    ・フレームワーク・エコシステム(Kafka)導入検討(Spring Batch／Spring-cloud)<br>
     ・開発用ガイドラインの作成(ブランチ戦略、設計、コーディングガイドライン作成)<br>
     ・業務システムの設計支援(コンポーネント設計、非機能要件検討<br>
     ・開発担当者への品質担保・教育(レビュー、勉強会の開催)<br>
@@ -180,7 +180,7 @@
   summary: |
   description: |
     【初期開発】業務アプリケーションの方式検討から参画<br>
-    ・(同ベンダー)F/Wチームが作成した金融用バッチフレームワークの検証・提案・導入手順書作成<br>
+    ・(同ベンダー)F／Wチームが作成した金融用バッチフレームワークの検証・提案・導入手順書作成<br>
     ・成果物定義・雛形作成<br>
   tags:
     - Java
@@ -210,7 +210,7 @@
   summary: |
   description: |
     ・出退勤、シフト管理の新機能を作成<br>
-    (要件定義/基本設計／詳細設計／プログラム／テスト)
+    (要件定義／基本設計／詳細設計／プログラム／テスト)
   tags:
     - Java
     - Android
@@ -238,9 +238,9 @@
   summary: |
   description: |
      &ensp;&ensp; - プロジェクトリーダー：マネジメント(〜5名)<br>
-     &ensp;&ensp; - L3SWの設定/AIサーバー(KVM仮想マシン)HAクラスタ構築<br>
-     &ensp;&ensp; - Apache/Tomcat/Oracleチューニング<br>
-     &ensp;&ensp; - ネットワーク/トラフィック/ハードウェア監視<br>
+     &ensp;&ensp; - L3SWの設定／AIサーバー(KVM仮想マシン)HAクラスタ構築<br>
+     &ensp;&ensp; - Apache／Tomcat／Oracleチューニング<br>
+     &ensp;&ensp; - ネットワーク／トラフィック／ハードウェア監視<br>
      &ensp;&ensp; - Solarisで組まれた運用スクリプト(C言語)のリライト
   tags:
     - C言語

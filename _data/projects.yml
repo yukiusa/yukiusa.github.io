@@ -7,6 +7,14 @@
     求人広告サイトへのCI/CD構築と結合試験の仕組み構築<br>
     ・結合試験環境を新規構築(AWS/Terraform)<br>
     ・CircleCIを用いたCI/CDの仕組みの設計・実装
+  description: |
+    求人広告サイトへのCI/CD構築と結合試験の仕組み構築<br>
+    ・結合試験環境を新規構築(AWS/Terraform)<br>
+    ・CircleCIを用いて以下をCI/CDの仕組みの設計・実装<br>
+      &ensp;&ensp; - node/pythonの単体試験の実行<br>
+      &ensp;&ensp; - ECRへの登録/ECSへのローリング・B/Gデプロイ<br>
+      &ensp;&ensp; - Terraformの自動実行<br>
+
   tags:
     - CircleCI
     - AWS
@@ -24,6 +32,13 @@
     次期BIMのシステム構築の検証・デモ環境作成<br>
     ・提案：Autodesk製品、IFCの連携の調査<br>
     ・デモ環境構築：クラウド選定、デモ環境の設計・構築
+  description: |
+    次期BIMのシステム構築の検証・デモ環境作成<br>
+    ・提案：Autodesk製品、IFCの連携の調査<br>
+      &ensp;&ensp; - Autodesk Forge/Autodesk Ravid<br>
+      &ensp;&ensp; - nestjsによるデモアプリ構築<br>
+    ・AWS/Terraformによる環境構築<br>
+    ・GitHub Actionによる自動デプロイ
   tags:
     - Autodesk
     - AWS
@@ -37,26 +52,39 @@
     データレイク・ウェアハウス方式検討<br>
     ・データモデル検討・トランザクション制御フロー<br>
     ・ベンダーフレーム・ライブラリ選定
+  description: |
+    データレイク・データウェアハウス構築のアーキテクトとして従事<br>
+    ・処理方式の検討<br>
+    ・データレイク・データウェアハウスのデータモデルの概案検討<br>
+    ・開発ルール策定(ブランチ戦略・トランザクションルール etc)<br>
+    ・ベースプロジェクト作成<br>
+    ・ライブラリ選定<br>
   tags:
     - C#
     - .NET Framework
     - 技術アドバイザ
 - name: 陳列棚解析システム リプレース案件
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: ./assets/images/project-004.jpg
   start: 2020.4
   end: 2020.8
-  period: 4ヶ月
+  period: 5ヶ月
   summary: |
     アーキテクチャ変更に伴う設計・実装<br>
     ・バックエンド刷新(Groovy->PHP)<br>
     ・フロントエンド刷新(AngularJS 2.x -> jQuery)
+  description: |
+    システム保守工数の増加に伴うリエンジニアリング及びアーキテクチャ変更の設計・実装を担当<br>
+    ・現行システムのAPIのリバースエンジニアリング<br>
+    ・バックエンドの作り変え(Groovy→PHP)<br>
+    ・フロントエンドの作り変え ( AngularJS → jQueryへ変更 )
   tags:
     - Grovvy
+    - Grails
     - PHP
-    - SQL
+    - FuelPHP
     - jQuery
 - name: 某カラオケ店様向けPOSシステムリプレース
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: ./assets/images/project-005.jpg
   start: 2019.11
   end: 2020.4
   period: 6ヶ月
@@ -64,7 +92,201 @@
     ・ハードウェア制御方式<br>
     ・言語・F/W選定/アプリケーション基盤設計<br>
     ・非機能系方式検討
+  description: |
+    POSシステム全体のアーキテクトチームのリーダとして従事<br>
+    ・ベースフレームワークの選定<br>
+      &ensp;&ensp; - POSクライアントサイド(C# .NET)<br>
+      &ensp;&ensp; - POSサーバサイド(Java(SpringBoot/SpringBatch/Thymeleaf/JS/CSS))<br>
+    ・ハードウェア制御(レシートプリンタ/バーコード/自動釣銭機/決済端末連携)<br>
+    ・アプリケーション基盤方式・非機能方式検討/View(UI/UX)/API/Batch 設計・実装ガイドライン検討<br>
   tags:
     - C#
+    - .NET Framework
     - Java
+    - SpringBoot
+    - Gradle
     - Guideline
+- name: アパレル系ECサイトのリプレース案件
+  image: ./assets/images/project-006.jpg
+  start: 2017.12
+  end: 2020.4
+  period: 2年5ヶ月
+  summary: ""
+  description: |
+    在庫管理サービスのアーキテクトチームのリーダとして従事<br>
+    ・フレームワーク・エコシステム(Kafka)導入検討(Spring Batch/Spring-cloud)<br>
+    ・開発用ガイドラインの作成(ブランチ戦略、設計、コーディングガイドライン作成)<br>
+    ・業務システムの設計支援(コンポーネント設計、非機能要件検討<br>
+    ・開発担当者への品質担保・教育(レビュー、勉強会の開催)<br>
+    ・CI/CDの構築(Dockerベース)
+  tags:
+    - Guideline
+    - Java8
+    - Java11
+    - SpringBoot
+    - Spring Batch
+    - Golang
+    - kafka
+    - AWS
+- name: クレジットカード決済システムのリプレース・機能追加案件
+  image: ./assets/images/project-007.jpg
+  start: 2016.2
+  end: 2017.11
+  period: 1年10ヶ月
+  summary: |
+  description: |
+    2015年04月～08月の同名案件(事業拡大に伴い、再度参画)<br>
+    ・Jenkinsを用いたCICDパイプライン構築<br>
+    ・単体テスト用フレームワーク開発<br>
+    ・運用・開発支援用（独自暗号化ファイルの復号、コードジェネレータ）ツール作成<br>
+    ・新規機能(電子マネー種別の追加伴う)の設計・製造<br>
+  tags:
+    - Java
+    - Spring Framework
+    - CICD
+    - 運用ツール
+- name: 高齢・福祉の助成金申請の自治体用システム
+  image: ./assets/images/project-008.jpg
+  start: 2015.12
+  end: 2016.01
+  period: 2ヶ月
+  summary: |
+  description: |
+    単体試験用フレームワークの導入と一部機能開発<br>
+    ファイル送信（HULFT）サーバーの導入支援<br>
+  tags:
+    - VB.NET
+    - HULFT
+- name: プリペイドカードシステム 品質改善・運用改善
+  image: ./assets/images/project-009.jpg
+  start: 2015.9
+  end: 2015.11
+  period: 3ヶ月
+  summary: |
+  description: |
+    導入済みシステムの機能追加対応のQA担当として従事<br>
+    ・社外委託先成果物（オフショア）の成果物のレビュー、受入、評価<br>
+    ・開発プロセス内で自動化可能な部分のツール化（VBA）
+  tags:
+    - 運用設計
+    - Java
+    - SQA
+    - VBA
+- name: クレジットカード決済システムのリプレース案件
+  image: ./assets/images/project-007.jpg
+  start: 2015.4
+  end: 2015.8
+  period: 5ヶ月
+  summary: |
+  description: |
+    【初期開発】業務アプリケーションの方式検討から参画<br>
+    ・(同ベンダー)F/Wチームが作成した金融用バッチフレームワークの検証・提案・導入手順書作成<br>
+    ・成果物定義・雛形作成<br>
+  tags:
+    - Java
+    - ベンダーフレームワーク
+    - Spring Framework
+    - Batch
+- name: 社内システム（経営管理）システム開発
+  image: ./assets/images/project-010.jpg
+  start: 2014.9
+  end: 2015.3
+  period: 7ヶ月
+  summary: |
+  description: |
+    グループ会社が独自管理している経営情報の同社経営管理システムへの取り込み<br>
+    ・バッチ部分の開発を担当<br>
+    　(詳細設計／プログラム／テスト)
+  tags:
+    - Java
+    - ベンダーフレームワーク
+    - Batch
+    - VBA
+- name: 美容室・サロン向け POSレジ／ウェブサイトの構築
+  image: ./assets/images/project-011.jpg
+  start: 2014.5
+  end: 2014.8
+  period: 4ヶ月
+  summary: |
+  description: |
+    ・出退勤、シフト管理の新機能を作成<br>
+    (要件定義/基本設計／詳細設計／プログラム／テスト)
+  tags:
+    - Java
+    - Android
+    - SAStruts
+    - JavaScript
+- name: 【研究開発】動画解析・3D地図自動生成アプリ開発
+  image: ./assets/images/project-012.jpg
+  start: 2013.11
+  end: 2014.1
+  period: 3ヶ月
+  summary: |
+  description: |
+    自動車から撮影した動画・GPS情報もとに3D地図データを生成する研究開発。以下の機能を担当<br>
+     &ensp;&ensp; - 特徴検出アルゴリズムのPoC、検出しきい値の算出<br>
+     &ensp;&ensp; - 動画データ(GPS情報を含む独自フォーマット)から座標/画像データの取得<br>
+     &ensp;&ensp; - 画像データから物体検知をリアルタイムの実施<br>
+  tags:
+    - C++/CLI
+    - OpenCV
+- name: 某新聞社様向けインフラ構築
+  image: ./assets/images/project-013.jpg
+  start: 2013.9
+  end: 2013.11
+  period: 3ヶ月
+  summary: |
+  description: |
+     &ensp;&ensp; - プロジェクトリーダー：マネジメント(〜5名)<br>
+     &ensp;&ensp; - L3SWの設定/AIサーバー(KVM仮想マシン)HAクラスタ構築<br>
+     &ensp;&ensp; - Apache/Tomcat/Oracleチューニング<br>
+     &ensp;&ensp; - ネットワーク/トラフィック/ハードウェア監視<br>
+     &ensp;&ensp; - Solarisで組まれた運用スクリプト(C言語)のリライト
+  tags:
+    - C言語
+    - bash
+    - PHP
+    - Cisco
+    - インフラ構築(オンプレ)
+- name: ペーパレス会議システム開発
+  image: ./assets/images/project-014.jpg
+  start: 2013.5
+  end: 2013.11
+  period: 3ヶ月
+  summary: |
+  description: |
+    ・プロジェクトリーダー：マネジメント(〜20名)・上流工程をメインで担当<br>
+    （要件定義・方式設計・開発規約作成・進捗管理）<br>
+    ・共通で使うデバイス制御関連のユーティリティ作成<br>
+    ・PDFファイル向けの検索ユーティリティ作成<br>
+  tags:
+    - Java
+    - Android
+    - マネジメント
+- name: 自動車部品販売管理パッケージシステムカスタマイズ
+  image: ./assets/images/project-015.jpg
+  start: 2012.9
+  end: 2013.04
+  period: 8ヶ月
+  summary: |
+  description: |
+    ・既存パッケージソフトのリプレイス作業。SEとして従事。<br>
+    ・Delphi -> C#へのリプレイス、及び顧客用パッケージカスタマイズの受託開発
+  tags:
+    - C#
+    - Delphi
+    - Windows Server
+- name: 半導体製造装置・エッチャー画面開発
+  image: ./assets/images/project-016.jpg
+  start: 2007.1
+  end: 2011.10
+  period: 4年10ヶ月
+  summary: |
+  description: |
+    プロジェクトリーダー：マネジメント(〜10名)・上流工程をメインで担当<br>
+    （要件定義・方式設計・開発規約作成・進捗管理）<br>
+    ・SES契約から請負契約へ移行するための計画・推進<br>
+  tags:
+    - C++
+    - Qt
+    - Linux(Redhad 9)

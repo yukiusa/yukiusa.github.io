@@ -17,12 +17,12 @@
 <meta name="og:site_name" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
 <meta name="og:type" content="website">
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:card" content="summary"/>
 <meta name="twitter:title" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
 <meta name="twitter:description" content="{% unless page.layout == 'post' %}{{site.description}}{% else %}{{page.description}}{% endunless %}">
 <meta name="twitter:site" content="@{{site.twitter_username}}">
 <meta name="twitter:creator" content="@{{site.twitter_username}}">
-<meta name="twitter:image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}" />
+<meta name="twitter:image" content="https://yukiusa.github.io/assets/images/meta.png" />
 <!-- Search Engine -->
 <meta name="description" content="{% unless page.layout == 'post' %}{{site.description}}{% else %}{{page.description}}{% endunless %}">
 <meta name="image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
@@ -30,7 +30,7 @@
 <meta itemprop="name" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
 <meta name="author" content="{{site.author-name}}"/>
 <meta itemprop="description" content="{% unless page.layout == 'post' %}{{site.description}}{% else %}{{page.description}}{% endunless %}">
-<meta itemprop="image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
+<meta itemprop="image" content="https://yukiusa.github.io/assets/images/meta.png">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google-analytics}}"></script>

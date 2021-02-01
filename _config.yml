@@ -23,7 +23,7 @@ heroimage: ../images/background.jpg
 # If you don't want to use any icon, you can leave them blank.
 email: masashi.kayahara@arc-connects.com
 facebook_username:
-twitter_username: __show_rabbit__
+twitter_username: __snow_rabbit__
 instagram_username:
 linkedin_username: masakaya01
 github_username: yukiusa
@@ -34,7 +34,7 @@ dribbble_username:
 spotify_username:
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics:
 
 # Disqus
 disqus-shortname: yukiusa

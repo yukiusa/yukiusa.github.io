@@ -13,7 +13,7 @@
 - name: "Infra/CICD"
   percent: 75
   color: "orange"
-- name: "クラウド(AWS/Goggle)"
+- name: "クラウド(AWS/Google)"
   percent: 80
   color: "blue"
 

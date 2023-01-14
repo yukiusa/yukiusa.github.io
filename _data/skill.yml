@@ -1,16 +1,19 @@
-- name: "Java"
-  percent: 95
+- name: "マネジメント"
+  percent: 70 
   color: "blue"
-- name: "SQL"
+- name: "システム方式"
+  percent: 95 
+  color: "green"
+- name: "要件定義/基本設計"
+  percent: 80
+  color: "blue"
+- name: "詳細設計/プログラム/テスト"
   percent: 85
   color: "green"
-- name: "CI/CD"
+- name: "Infra/CICD"
   percent: 75
   color: "orange"
-- name: "AWS"
-  percent: 50
+- name: "クラウド(AWS/Goggle)"
+  percent: 80
   color: "blue"
-- name: "Other"
-  percent: 50
-  color: "green"
 

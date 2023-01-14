@@ -1,0 +1,43 @@
+<section class="hero is-fullheight has-text-centered has-background-black-ter" id="certification">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-centered is-multiline is-mobile">
+                <div class="column">
+                    <h1 class="title has-text-grey-lighter">{ Certification }</h1>
+                </div>
+            </div>
+            <div class="columns is-multiline is-mobile">
+                <div class="column">
+                  {% for certification in site.data.certifications %}
+                  <div class="box box-shadow has-background-light">
+                    <article class="media">
+                      <div class="media-left">
+                        <figure class="image is-64x64">
+                          <img src="{{ certification.img }}" alt="{{ certification.name }}" >
+                        </figure>
+                      </div>
+                      <div class="media-content">
+                        <div class="content">
+                          <p><strong> {{ certification.name }} </strong></p>
+                          <p><small>  {{ certification.company }} </small> / <small>date : {{ certification.date }} / expire : {{ certification.expire}}</small></p>
+                        </div>
+                      </div> 
+                  </div>
+                  {% endfor %}
+                </div>
+            </div>
+            <div class="columns is-centered is-multiline is-mobile">
+                    <div class="container columns is-centered">
+                        <div>
+                            <a href="{{site.url}}{{site.baseurl}}/#contact"
+                               class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined">Contact
+                                Me</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

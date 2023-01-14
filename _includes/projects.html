@@ -15,7 +15,7 @@
                             <figure class="image is-3by2">
                                 <img src="{{project.image}}" alt="{{project.name}}");">
                             </figure>
-                            <div class="card-content">
+                            <div class="card-content card-height">
                                 <h1 class="title has-text-white is-size-4">{{ project.name }}</h1>
                                 <p class="has-text-white is-size-7 content">
                                     {{ project.start }} - {% if project.period != '/' %} {{ project.end }} {% else %} 継続中 {% endif %}
@@ -33,7 +33,7 @@
                                 <span class="tag is-rounded">None</span>
                                 {% endif %}
                             </div>
-                        </div>
+                     </div>
                 </div>
                 {% endfor %}
             </div>
